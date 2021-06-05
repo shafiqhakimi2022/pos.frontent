@@ -100,6 +100,7 @@ h7, .h7 {
 .sidebar {
   z-index: 1000;
   height: 100vh;
+  position: fixed;
 }
 
 .sidebar {
@@ -155,8 +156,8 @@ h7, .h7 {
 }
 
 .bd-main {
-  margin-left: 80px;
-  width: 135vh;
+  margin-left: 90px;
+  width: calc(100vw - 322px - 130px);
 }
 
 .box-1 {

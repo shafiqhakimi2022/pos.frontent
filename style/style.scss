@@ -100,7 +100,8 @@
 
   .sidebar {
     z-index: 1000;
-    height: 100vh
+    height: 100vh;
+    position: fixed;
   }
 
   .sidebar {
@@ -157,8 +158,8 @@ font-size: .875rem;
 //   display: none!important;
 // }
 .bd-main{
-  margin-left: 80px;
-  width: 135vh;
+  margin-left: 90px;
+  width: calc(100vw - 322px - 130px);
   
 }
 .box-1{
