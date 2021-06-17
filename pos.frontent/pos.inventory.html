@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/pos.invetory.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <aside class=" sidebar text-dark alert-secondary" style="width: 85px;">
+        <ul class="nav nav-pills  mt-4 d-block">
+            <a class="btn alert-secondary btn-1" href="./page 1.html">
+                <span class="material-icons">account_circle</span>Home
+            </a>
+            <a class="btn alert-secondary btn-1" href="./page 4.html">
+                <span class="material-icons">
+                    bar_chart
+                </span>Reporting
+            </a>
+
+            <a class="btn alert-secondary btn-1" href="./page 4.html">
+                <span class="material-icons">
+                    restore
+                </span>Reporting
+            </a>
+            <a class="btn alert-secondary btn-1" href="./page 6.html">
+                <span class="material-icons">
+                    account_balance_wallet
+                </span>Catalog
+            </a>
+            <a class="btn alert-secondary btn-1" href="#">
+                <span class="material-icons">
+                    perm_identity
+                </span>inventory
+            </a>
+            <a href="#" class="btn alert-secondary btn-1">
+                <span class="material-icons">
+                    settings
+                </span>Customer
+            </a>
+        </ul>
+
+    </aside>
+    <aside class=" sidebar text-dark bg-white side-1">
+        <ul class="nav nav-pills  mt-4 d-block">
+            <a class="btn btn-light mt-4 pl-2 ml-0 mt-5 d-flex" href="./page 6.html">
+                <h7> Stock control</h7>
+            </a>
+            <a class="btn btn-light mt-4 d-flex ml-0 pl-2" href="#">
+                <h7> Inventory counts</h7>
+            </a>
+            <a href="#" class="btn btn-light ml-0 pl-2  mt-4 d-flex">
+                <h7> Fullfilment</h7>
+            </a>
+        </ul>
+
+    </aside>
+    <div class="container-fluid pr-0">
+        <div class="row flex-xl-nowrap mr-0">
+            <main class="bd-main order-1">
+                <div class="ml-5 mb-5">
+                    <h3><strong>Inventory</strong></h3>
+                </div>
+                <div>
+                    <nav class="navbar navbar-expand-lg bg-alo fixed-top justify-content-between">
+                        <div>
+                            <a class="btn btn-dark" href="./pos.customer.html" style="height: 34px;">
+
+                            </a>
+                        </div>
+
+                    </nav>
+                </div>
+                <div class="card shadow-sm">
+                    <div class="card-header alert-secondary">
+                        <div class="d-flex justify-content-end">
+                            <a class="btn btn-primary-1 mt-2 mb-2 mr-2 p-2 pl-3 pr-3 text-white">Order stock</a>
+                            <a class="btn btn-primary-1 mt-2 mb-2 mr-2 p-2 pl-3 pr-3 text-white">Receive stock</a>
+                            <a class="btn btn-primary-1 mt-2 mb-2 mr-2 p-2 pl-3 pr-3 text-white">Return stock</a>
+                            <a class="btn btn-primary-1 mt-2 mb-2 mr-2 p-2 pl-3 pr-3 text-white">Transfer stock</a>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="form-row mt-5">
+                            <div class="form-group ml-5">
+                                <label for="inputEmail4">Show</label>
+                                <input type="email" class="form-control box-i form-control-lg" id="inputEmail4"
+                                    style="width: 327px;">
+                            </div>
+                            <div class="form-group ml-4">
+                                <label for="inputPassword4">Type of items</label>
+                                <input type="password" class="form-control box-i form-control-lg" id="inputPassword4"
+                                    style="width: 327px;">
+                            </div>
+                            <div class="form-group ml-4">
+                                <label for="inputAddress">Outlet</label>
+                                <input type="text" class="form-control form-control-lg box-i" id="inputAddress"
+                                    placeholder="" style="width: 327px;">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <a href="#" class=" ml-5">Order stock</a>
+                            <a class="btn btn-primary-1 text-white p-2 mb-3 mr-5 pl-3 pr-3">Update</a>
+                        </div>
+                    </form>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- <section of modal> -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" id="staticBackdrop"
+        data-backdrop="static" data-target="#staticBackdrop" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="./08.jpg" class="img-fluid">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="false">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <h3 class="text-center"><B>Big john</B></h3>
+                    <h4 class="text-center">18 g</h4>
+                    <h3 class="text-center text-primary"><B>20.12$</B></h3>
+
+
+
+
+                </div>
+                <!-- <div class="modal-footer"> -->
+
+                <button type="button" class="btn btn-primary">Add to order</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
